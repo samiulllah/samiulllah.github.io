@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="A new Flutter project.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="flutter_quiz_app">
+  <link rel="apple-touch-icon" href="icons/Icon-192.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>flutter_quiz_app</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+
+<script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+       // navigator.serviceWorker.register('flutter_service_worker.js?v=1075554199');
+        navigator.serviceWorker.register("/firebase-messaging-sw.js");
+      });
+    }
+</script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-auth.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-storage.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.3.2/firebase-analytics.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.20.0/firebase-messaging.js"></script>
+<script>
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  var firebaseConfig = {
+    apiKey: "AIzaSyCDqpnYSjChc33-WjlSrFOvpU2t7JollBQ",
+    authDomain: "get-certified.firebaseapp.com",
+    projectId: "get-certified",
+    storageBucket: "get-certified.appspot.com",
+    messagingSenderId: "462268964021",
+    appId: "1:462268964021:web:54bef82f13f9362a19f2fc",
+    measurementId: "G-SRBKYWMQJ9"
+  };
+  // Initialize Firebase
+  firebase.initializeApp(firebaseConfig);
+  firebase.analytics();
+</script>
+
+
+
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>

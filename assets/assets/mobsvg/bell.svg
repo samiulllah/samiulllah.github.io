@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="28.538" height="25.163" viewBox="0 0 28.538 25.163">
+    <g id="notification" transform="translate(-317.116 -20.519)">
+        <g id="Icon_feather-bell" data-name="Icon feather-bell" transform="translate(319.594 21.269)" opacity="0.28">
+            <path id="Path_49" data-name="Path 49" d="M21.862,9.945a6.945,6.945,0,0,0-13.889,0c0,8.1-3.472,10.417-3.472,10.417H25.334s-3.472-2.315-3.472-10.417" transform="translate(-4.5 -3)" fill="none" stroke="#fff" stroke-linecap="square" stroke-width="1.5"/>
+            <path id="Path_50" data-name="Path 50" d="M19.41,31.5a2.315,2.315,0,0,1-4,0" transform="translate(-6.99 -9.509)" fill="none" stroke="#fff" stroke-linecap="square" stroke-width="1.5"/>
+        </g>
+        <circle id="Ellipse_15" data-name="Ellipse 15" cx="4" cy="4" r="4" transform="translate(337.655 37.682)" fill="#ff3939"/>
+    </g>
+</svg>

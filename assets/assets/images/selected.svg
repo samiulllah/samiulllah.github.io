@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="103" height="119.82" viewBox="0 0 103 119.82">
+    <g id="curved_BG" data-name="curved BG" transform="translate(-32.5 -387.511)">
+        <path id="Path_352" data-name="Path 352" d="M0,0S34.233.833,46.587,0A182,182,0,0,1,69.622-.021V62H0Z" transform="translate(65.5 416.14)" fill="#fff"/>
+        <path id="Subtraction_1" data-name="Subtraction 1" d="M0,54.4H0V24.927c.987.095,2,.143,3,.143a30.989,30.989,0,0,0,30.954-29.3L34,54.347Z" transform="translate(101.5 391.738)" fill="#fff"/>
+        <path id="Subtraction_2" data-name="Subtraction 2" d="M33.952,58.593A31,31,0,0,0,3,29.331c-1,0-2.01.048-3,.143V0L34,.055l-.046,58.538Z" transform="translate(101.5 448.738)" fill="#fff"/>
+        <circle id="Ellipse_54" data-name="Ellipse 54" cx="31" cy="31" r="31" transform="translate(32.5 416.142)" fill="#fff"/>
+    </g>
+</svg>
